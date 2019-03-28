@@ -10,6 +10,8 @@ metadata:
 nodeGroups:
   - name: ng1-public
     instanceType: m5.xlarge
+    ami: ami-00a7ce72a2fe4fcf8
+    amiFamily: Ubuntu1804 
     minSize: 2
     maxSize: 8
     labels:
